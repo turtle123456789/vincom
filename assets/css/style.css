@@ -78,7 +78,7 @@ a:hover{
 }
 .button-heart{
     position: absolute;
-    background-image: url(../assets/SVG/heart-default.svg);
+    background-image: url("../assets/SVG/heart-default.svg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 28px;
@@ -88,7 +88,7 @@ a:hover{
     margin: 20px;
 }
 .button-heart:hover{
-    background-image: url(../assets/SVG/heart-red.svg);
+    background-image: url("../assets/SVG/heart-red.svg");
     cursor: pointer;
 }
 .zoom-img:hover .hidden-content{
@@ -464,7 +464,7 @@ footer{
     margin-bottom: 20px;
 }
 #poster-introduce{
-    background: url(../assets/images/introduce/poster-introduce.jpg);
+    background: url("../assets/images/introduce/poster-introduce.jpg");
 }
 #collection img{
     width: 100%;
@@ -492,7 +492,7 @@ footer{
     margin-bottom: 20px;
 }
 #poster-contact{
-    background: url(../assets/images/Contact/poster_contact.jpg);
+    background: url("../assets/images/Contact/poster_contact.jpg");
 }
 .form-feedback
 {
@@ -509,7 +509,7 @@ footer{
     right: 0;
 }
 .background-contact::after{
-    background-image: url(../assets/images/Contact/multi-dots.png);
+    background-image: url("../assets/images/Contact/multi-dots.png");
     content: "";
     width: 72px;
     height: 56px;
@@ -562,7 +562,7 @@ footer{
 
 /* LOGIN */
 #page-login{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../assets/images/market_bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/market_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -604,7 +604,7 @@ footer{
 display: inline-block;
 }
 #poster-centers{
-    background-image: url(../assets/images/Centers/bg_list_center_22122021.jpg);
+    background-image: url("../assets/images/Centers/bg_list_center_22122021.jpg");
 }
 .search-name-city{
     border: 1px solid #000;
@@ -625,7 +625,7 @@ display: inline-block;
 
 /* COUPLES */
 #poster-couples{
-    background: url(../assets/images/Couples/bg_partner_22122021.jpg);
+    background: url("../assets/images/Couples/bg_partner_22122021.jpg");
 }
 .button-link{
     padding: 60px 0;
@@ -651,7 +651,7 @@ display: inline-block;
 /* RECRUITMENT */
 #poster-recruitment
 {
-    background-image: url(../assets/images/recruitment/bg_recruitment_22122021.jpg);
+    background-image: url("../assets/images/recruitment/bg_recruitment_22122021.jpg");
 }
 .form-recruitment input{
     height: 50px;
@@ -736,7 +736,7 @@ tbody tr:hover
 }
 .menu-promotion-relations .menu-reduce>a::after
 {
-    background-image: url(../assets/images/Promotion-relations/down-arrow.png);
+    background-image: url("../assets/images/Promotion-relations/down-arrow.png");
     content: " ";
     background-repeat: no-repeat;
     background-position: center;
@@ -749,7 +749,7 @@ tbody tr:hover
 #poster-promotion
 {
     position: relative;
-    background-image: url(../assets/images/Promotion-relations/banner.png);
+    background-image: url("../assets/images/Promotion-relations/banner.png");
     height: 458px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -950,7 +950,7 @@ tbody tr:hover
 /* PREMIUM */
 #poster-premium
 {
-    background-image: url(../assets/images/Premium/bannertrangcon.png);
+    background-image: url("../assets/images/Premium/bannertrangcon.png");
 }
 .information-premium p
 {
