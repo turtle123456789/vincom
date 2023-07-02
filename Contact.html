@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css">
+        <!-- bootstrap -->
+        <!-- icon -->
+        <link rel="stylesheet" href="/assets/icon/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="/assets/icon/fontawesome-free-6.4.0-web/css/all.css">
+        <!-- icon -->
+        <!-- swiper slider -->
+        <link rel="stylesheet" href="/assets/swiper-slider/swiper-bundle.min.css" type="text/css">
+        <!-- swiper slider -->
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/responsive.css">
+        <title>Document</title>
+    </head>   
+<body>
+    <header>
+        <nav id="top_menu" class="fixed-top"   style="background-color: #333; ">
+            <div class="container" >
+                <div class="row justify-content-between" style="height: 27.5px;padding: 0 20px;">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Trang chủ Vincom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Introduce.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/promotion-relations.html">Quan hệ cổ đông</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Couples.html">Đối tác</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/recruitment.html">Tuyển dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Contact.html">Liên hệ</a>
+                        </li> 
+                    </ul>
+                    <ul class="nav">
+                        <li id="top_menu_register">
+                            <div class="nav-link text-center" style="height: 27px;padding-top: 0;padding-bottom: 0;">
+                                <a class="" href="/Login.html">Đăng nhập</a>
+                                <span style="color: #fff; ">/</span>
+                                <a class="" href="/Signin.html">Đăng kí</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav id="Menu-responsive"class="fixed-top"  >
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-center">
+                    <div class="list-menu-hidden">
+                        <div class="icon-list-menu" onclick="toggleMenu1()"></div>
+                    </div>
+                    <div id="logo">
+                        <a href="/index.html">
+                            <img class="main_logo" src="/assets/images/Logo_vin_com_main.png" s alt="">
+                        </a>
+                    </div>
+    
+                    <a class="ti-search nav-link" href=""></a>
+                </div>
+            </div>
+            <nav id="Menu_hidden">
+                <div class="page-menu_hidden">
+                    <div class="menu_item">
+                        <a href="/Login.html">Đăng nhập</a>
+                        <a href="/Signin.html">Đặng ký</a>
+                        <hr>
+                        <a href="/index.html">Trang chủ Vincom</a>
+                        <a href="/Introduce.html">Giới thiệu</a>
+                        <a href="/promotion-relations.html">Quan hệ cổ đông</a>
+                        <a href="/Couples.html">Đối tác</a>
+                        <a href="/recruitment.html">Tuyển dụng</a>
+                        <a href="/Contact.html">Liên hệ</a>
+                        <br>
+                        <a href="/Centers.html">Hệ thống TTTM</a>
+                        <div class="container">
+                            <a href="#"class="row justify-content-between" id="link_menu_hidden2" onclick="toggleMenu2()">
+                                <li>Đang diễn ra</li>
+                                <img src="/assets/SVG/chevron-right.svg" alt="" style="height: 16px; width: 16px;">
+                            </a>
+                            <div id="menu_hidden2">
+                                <a href="/Premium.html">Ưu đãi</a>
+                                <a href="/NewEven.html">Tin tức & sự kiện</a>
+                                <a href="/Trend.html">Xu hướng</a>
+                            </div>
+                        </div>
+                        <a href="/Login.html">My Vincom</a>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <nav id="main_menu" >
+            <div class="container">
+                <div class="row justify-content-between d-flex align-items-center" style="height: 60px; padding: 0 20px;">
+                    <div id="logo">
+                        <ul class="nav">
+                            <li>
+                                <a href="/index.html">
+                                    <img class="main_logo" src="/assets/images/Logo_vin_com_main.png" s alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Centers.html">HỆ THỐNG TTTM</a>
+                        </li>
+                        <li class="nav-item nav-rank-2">
+                            <a class="nav-link " href="#">ĐANG DIỄN RA</a>
+                            <ul class="nav-rank2">
+                              <li><a  href="/Premium.html">Ưu đãi</a></li>
+                              <li><a  href="/NewEven.html">Tin tức & sự kiện</a></li>
+                              <li><a  href="/Trend.html">Xu hướng</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Login.html">MY VINCOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ti-search nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div id="poster-contact">
+                <div class="container">
+                    <h1 class="m-0 white-text" style="padding: 45px 20px; font-size: 28px;">LIÊN HỆ</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="content-introduce">
+            <div class="information-contact">
+                <div class="container">
+                    <div class="top-border"></div>
+                    <h1 style="font-size: 24px;">KẾT NỐI VỚI VINCOM</h1>
+                    <div class="form-page-contact">
+                        <div class="contact">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="information-left">
+                                        <span style="font-size: 20px; color: #D2232A;font-weight: 700;">LIÊN HỆ TRỤ SỞ CHÍNH</span>
+                                        <div class="location-centers">
+                                            <img src="/assets/SVG/location.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                            <h3 style="font-size: 17px;">Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, phường Việt Hưng, Long Biên, Hà Nội</h3>
+                                        </div>
+                                        <div class="location-centers">
+                                            <img src="/assets/SVG/email.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                            <a style="font-size: 17px;">info@vincom.com.vn</a>
+                                        </div>
+                                        <br><br><br>
+                                        <span style="font-size: 20px; color: #D2232A;font-weight: 700;">LIÊN HỆ THUÊ MẶT BẰNG</span>
+                                        <br><br>
+                                        <a href="">info@vincom.com.vn</a>
+                                        <br><br>
+                                        <a href="">094 755 6886</a>
+                                        <br><br><br>
+                                        <span style="font-size: 20px; color: #D2232A;font-weight: 700;">THEO DÕI VINCOM</span>
+                                        <br><br>
+                                        <div class="list-icon col-12 col-lg-6 ">
+                                            <ul class="list-inline" style="margin: 0;">
+                                                <li class="list-inline-item">
+                                                    <div class="_icon">
+                                                        <a href="">
+                                                            <img src="/assets/SVG/facebook-line-brown.svg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <div class="_icon">
+                                                        <a href="">
+                                                            <img src="/assets/SVG/zalo-line-brown.svg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <div class="_icon">
+                                                        <a href="">
+                                                            <img src="/assets/SVG/youtube-line-brown.svg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <div class="_icon">
+                                                        <a href="">
+                                                            <img src="/assets/SVG/instagram-line-brown.svg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <br><br><br><br>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-lg-6 col-12">
+                                    <div class="form-feedback">
+                                        <div class="background-contact">
+                                            
+                                        </div>
+                                        <div class="form-contact">
+                                            <span style="color: #333333;font-size: 14px; font-weight: 500;">Hoặc vui lòng để lại lời nhắn để được hỗ trợ</span>
+                                            <br><br>
+                                            <form action="">
+                                                <input type="text" placeholder="Họ và tên">
+                                                <input type="email" placeholder="Email">
+                                                <input type="number" placeholder="Số điện thoại">
+                                                <select name="" id="">
+                                                    <option selected>Liên hệ</option>
+                                                    <option value="Liên hệ báo mất đồ">Liên hệ báo mất đồ<table></table> đồ</option>
+                                                    <option value="Liên hệ thuê mặt bằng">Liên hệ thuê mặt bằng</option>
+                                                    <option value="Liên hệ thuê quảng cáo">Liên hệ thuê quảng cáo</option>
+                                                    <option value="Liên hệ để hợp tác">Liên hệ để hợp tác</option>
+                                                </select>
+                                                <select name="" id="">
+                                                    <option selected>TTTM cần liên hệ</option>
+                                                    <option value="Vincom Tp.HCM">Vincom Tp.HCM</option>
+                                                    <option value="Vincom Hà Nội">Vincom Hà Nội</option>
+                                                    <option value="Vincom Quảng Ngãi">Vincom Quảng Ngãi</option>
+                                                </select>
+                                                <textarea name="comments" id="comments" style="height: 84px; font-size:14px;" placeholder="Nội dung"></textarea>
+                                                <div class="common-button text-center" style="">
+                                                    <button class="btn btn-danger">GỬI PHẢN HỒI</button>
+                                                </div>
+                                            </form>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                    <div class="top-border"></div>
+                    <h1 style="font-size: 24px;">KẾT NỐI TRUNG TÂM THƯƠNG MẠI VINCOM</h1>
+                    <br><br>
+                    <div class="search-information-contact">
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <input type="text" placeholder="Họ và tên">
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <div class="row">
+                                    <div class="col-lg-7 col-9">
+                                        <select class="form-select" id="inputGroupSelect01" name="city" >
+                                            <option selected>Tỉnh/Thành phố</option>
+                                            <option value="Yên Bái">Yên Bái</option>
+                                            <option value="Vĩnh Long">Vĩnh Long</option>
+                                            <option value="Yên Quang">Yên Quang</option>
+                                            <option value="Trà Vinh">Trà Vinh</option>
+                                            <option value="Tiền Giang">Tiền Giang</option>
+                                            <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                            <option value="Thanh Hóa">Thanh Hóa</option>
+                                            <option value="Thái Nguyên">Thái Nguyên</option>  
+                                            <option value="Thái Bình">Thái Bình</option>
+                                            <option value="Tây Ninh">Tây Ninh</option>
+                                            <option value="Sơn La">Sơn La</option>
+                                            <option value="Sóc Trăng">Sóc Trăng</option>
+                                            <option value="Quảng Ninh">Quảng Ninh</option>
+                                            <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                            <option value="Quảng Bình">Quảng Bình</option>
+                                            <option value="Phú Yên">Phú Yên</option>
+                                            <option value="Phú Thọ">Phú Thọ</option>
+                                            <option value="Ninh Thuận">Ninh Thuận</option>
+                                            <option value="Nghệ An">Nghệ An</option> 
+                                            <option value="Long An">Long An</option>
+                                            <option value="Lâm Đồng">Lâm Đồng</option>
+                                            <option value="Lạng Sơn">Lạng Sơn</option>
+                                            <option value="Kon Tum">Kon Tum</option>
+                                            <option value="Kiên Giang">Kiên Giang</option>
+                                            <option value="Khánh Hòa">Khánh Hòa</option>
+                                            <option value="Hòa Bình">Hòa Bình</option>
+                                            <option value="Hậu Giang">Hậu Giang</option>
+                                            <option value="Hải Phòng">Hải Phòng</option>
+                                            <option value="Hải Dương">Hải Dương</option>
+                                            <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                            <option value="Hà Nam">Hà Nam</option>
+                                            <option value="Đồng Tháp">Đồng Tháp</option>
+                                            <option value="Đồng Nai">Đồng Nai</option>
+                                            <option value="Đắk Lắk">Đắk Lắk</option>
+                                            <option value="Đà Nẵng">Đà Nẵng</option>
+                                            <option value="Cần Thơ">Cần Thơ</option>
+                                            <option value="Cà Mau">Cà Mau</option>
+                                            <option value="Bình Dương">Bình Dương</option>
+                                            <option value="Bắc Ninh">Bắc Ninh</option>
+                                            <option value="Bắc Kạn">Bắc Kạn</option>
+                                            <option value="Bạc Liêu">Bạc Liêu</option>
+                                            <option value="An Giang">An Giang</option>
+                                            <option value="Thành Phố Hồ Chí Minh">Thành Phố Hồ Chí Minh</option>
+                                            <option value="Hà Nội">Hà Nội</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-5 col-3">
+                                        <div class="common-button text-center">
+                                            <button class="btn btn-danger button1"style="margin-top: 0;">TÌM KIẾM</button>
+                                            <button class="btn btn-danger button2"style="margin-top: 0; height: 36px"><img src="/assets/SVG/search-white.svg" alt="" style="width: 20px;height: 20px;"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    <footer>
+        <div id="header-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h1 style="font-size: 24px;color: #fff;">
+                            BẮT KỊP MỌI XU HƯỚNG <br>
+                            <span style="opacity: 0.5;">MỚI NHẤT</span>
+                        </h1>
+                        <p>CÙNG VỚI NHIỀU ƯU ĐÃI HẤP DẪN MỖI NGÀY!</p>
+                        <div class="input-group" style="width:100% ; height: 50px; display: inline-flex;">
+                            <input type="email" class="form-control" style=" border-radius: 0%;"  placeholder="Địa chỉ email của bạn" aria-label="Địa chỉ email của bạn" aria-describedby="basic-addon2">
+                            <button class="btn btn-danger" style="border-radius: 0%; background-color: #922126;">NHẬN EMAil</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-8">
+                        <div class="search-information">
+                            <div class="row ">
+                                <div class="list-icon col-12 col-lg-6 ">
+                                    <ul class="list-inline" style="margin: 0;">
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/facebook-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/zalo-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/youtube-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/instagram-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="search-centers">
+                                        <a href="">
+                                            <img style=" width: 19px;height: 19px; display: inline-block;" src="/assets/SVG/search-white.svg" alt="">
+                                            Tìm kiếm trung tâm thương mại
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="menu-footer">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">DỊCH VỤ KHÁCH HÀNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CÂU HỎI THƯỜNG GẶP</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CHÍNH SÁCH QUYỀN RIÊNG TƯ</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">LIÊN HỆ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">TIN TỨC</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">SỰ KIỆN</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">ƯU ĐÃI</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">XU HƯỚNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">TUYỂN DỤNG</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">VỀ VINCOM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">GIỚI THIỆU</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">MY VINCOM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">HỆ THỐNG TTTM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">BẢN ĐỒ TRANG</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">HỢP TÁC</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">QUAN HỆ CỔ ĐÔNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CHO THUÊ</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">QUẢNG CÁO</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">THUÊ MẶT BẰNG</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="body-footer">
+            <div class="container">
+                <div class="body-footer-responsive">
+                    <ul>
+                        <li>Công ty Cổ phần Vincom Retail:</li>
+                        <li>
+                            <p class="text-opacity70 white-text">
+                                Địa chỉ trụ sở chính: Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam.
+                                <br>
+                                Hotline: 0439746699 Mã số DN: 0105850244Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 11/04/2012
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="body-footer-common">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Công ty Cổ phần Vincom Retail:</li>
+                                <li>
+                                    <p class="text-opacity70 white-text">
+                                        Địa chỉ trụ sở chính: Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam.
+                                        <br>
+                                        Hotline: 0439746699
+                                        <br>
+                                        Mã số DN: 0105850244
+                                        <br>
+                                        Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 11/04/2012
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Lĩnh vực kinh doanh:</li>
+                                <li><p class="text-opacity70 white-text">Kinh doanh bất động sản</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Chủ tài khoản:</li>
+                                <li>
+                                    <p class="text-opacity70 white-text">
+                                        Công ty Cổ phần Vincom Retail
+                                        <br>
+                                        Tài khoản ngân hàng số: 12310000380169
+                                        <br>
+                                        Ngân hàng TMCP Đầu tư và Phát triển Việt Nam
+                                        <br>
+                                        (BIDV) - Chi Nhánh Quang Trung
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-footer">
+            <div class="container text-center">
+                Copyright © 2021 by Vincom Retail. All rights reserved | <a href="">Điều khoản</a>
+                <br>
+                This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a>  and <a href="">Terms of Service </a>apply.
+            </div>
+        </div>
+    </footer>
+    <script>
+        var menu_hidden = document.getElementById("Menu_hidden");
+        var iconMenu = document.querySelector(".icon-list-menu");
+        menu_hidden.style.display = "none"
+        function toggleMenu1() {
+            if (menu_hidden.style.display == "none") {
+                menu_hidden.style.display = "flex";
+            } else {
+                menu_hidden.style.display = "none";
+            }
+            iconMenu.classList.toggle("active");
+        }    
+
+        var menu_hidden2 = document.getElementById("menu_hidden2");
+        menu_hidden2.style.display = "none"
+        function toggleMenu2() {
+            if (menu_hidden2.style.display == "none") {
+                menu_hidden2.style.display = "flex";
+            } else {
+                menu_hidden2.style.display = "none";
+            }
+        } 
+    </script>
+
+    <script>
+        var prevScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+        function handleScroll(event) {
+        var currentScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+        var menu = document.getElementById('main_menu');
+        
+        // Kiểm tra kích thước màn hình
+        if (window.innerWidth > 992) {
+            // Lăn chuột xuống một khoảng nhất định (vd: 100px) => ẩn menu
+            if (currentScrollPos > prevScrollPos) {
+                if (currentScrollPos >50) {
+                    menu.style.display = 'none';
+                }
+                } else { // Lăn chuột lên => hiển thị menu
+                menu.style.display = 'block';
+            }
+        } else {
+            // Nếu kích thước màn hình nhỏ hơn hoặc bằng 992px, luôn hiển thị menu
+            menu.style.display = 'none';
+        }
+
+        prevScrollPos = currentScrollPos;
+        }
+
+        window.addEventListener('scroll', handleScroll);
+    </script>
+</body>
+</html>

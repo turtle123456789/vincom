@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css">
+    <!-- bootstrap -->
+    <!-- icon -->
+    <link rel="stylesheet" href="/assets/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/assets/icon/fontawesome-free-6.4.0-web/css/all.css">
+    <!-- icon -->
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="/assets/swiper-slider/swiper-bundle.min.css" type="text/css">
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <title>Document</title>
+</head>              
+<body>
+    <header>
+        <nav id="top_menu" class="fixed-top"   style="background-color: #333; ">
+            <div class="container" >
+                <div class="row justify-content-between" style="height: 27.5px;padding: 0 20px;">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Trang chủ Vincom</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Introduce.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/promotion-relations.html">Quan hệ cổ đông</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Couples.html">Đối tác</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/recruitment.html">Tuyển dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Contact.html">Liên hệ</a>
+                        </li> 
+                    </ul>
+                    <ul class="nav">
+                        <li id="top_menu_register">
+                            <div class="nav-link text-center" style="height: 27px;padding-top: 0;padding-bottom: 0;">
+                                <a class="" href="/Login.html">Đăng nhập</a>
+                                <span style="color: #fff; ">/</span>
+                                <a class="" href="/Signin.html">Đăng kí</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav id="Menu-responsive"class="fixed-top"  >
+            <div class="container-fluid">
+                <div class="row justify-content-between align-items-center">
+                    <div class="list-menu-hidden">
+                        <div class="icon-list-menu" onclick="toggleMenu1()"></div>
+                    </div>
+                    <div id="logo">
+                        <a href="/index.html">
+                            <img class="main_logo" src="/assets/images/Logo_vin_com_main.png" s alt="">
+                        </a>
+                    </div>
+    
+                    <a class="ti-search nav-link" href=""></a>
+                </div>
+            </div>
+            <nav id="Menu_hidden">
+                <div class="page-menu_hidden">
+                    <div class="menu_item">
+                        <a href="/Login.html">Đăng nhập</a>
+                        <a href="/Signin.html">Đặng ký</a>
+                        <hr>
+                        <a href="/index.html">Trang chủ Vincom</a>
+                        <a href="/Introduce.html">Giới thiệu</a>
+                        <a href="/promotion-relations.html">Quan hệ cổ đông</a>
+                        <a href="/Couples.html">Đối tác</a>
+                        <a href="/recruitment.html">Tuyển dụng</a>
+                        <a href="/Contact.html">Liên hệ</a>
+                        <br>
+                        <a href="/Centers.html">Hệ thống TTTM</a>
+                        <div class="container">
+                            <a href="#"class="row justify-content-between" id="link_menu_hidden2" onclick="toggleMenu2()">
+                                <li>Đang diễn ra</li>
+                                <img src="/assets/SVG/chevron-right.svg" alt="" style="height: 16px; width: 16px;">
+                            </a>
+                            <div id="menu_hidden2">
+                                <a href="/Premium.html">Ưu đãi</a>
+                                <a href="/NewEven.html">Tin tức & sự kiện</a>
+                                <a href="/Trend.html">Xu hướng</a>
+                            </div>
+                        </div>
+                        <a href="/Login.html">My Vincom</a>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <nav id="main_menu" >
+            <div class="container">
+                <div class="row justify-content-between d-flex align-items-center" style="height: 60px; padding: 0 20px;">
+                    <div id="logo">
+                        <ul class="nav">
+                            <li>
+                                <a href="/index.html">
+                                    <img class="main_logo" src="/assets/images/Logo_vin_com_main.png" s alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Centers.html">HỆ THỐNG TTTM</a>
+                        </li>
+                        <li class="nav-item nav-rank-2">
+                            <a class="nav-link " href="#">ĐANG DIỄN RA</a>
+                            <ul class="nav-rank2">
+                              <li><a  href="/Premium.html">Ưu đãi</a></li>
+                              <li><a  href="/NewEven.html">Tin tức & sự kiện</a></li>
+                              <li><a  href="/Trend.html">Xu hướng</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Login.html">MY VINCOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ti-search nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="couples">
+            <div id="poster-couples">
+                <div class="container">
+                    <h1 class="m-0 white-text" style="padding: 45px 20px; font-size: 28px;">ĐỐI TÁC</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="button-link">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <button id="even-button" href="">
+                                    THUÊ SẢNH SỰ KIỆN
+                                </button>
+                            </div>
+                            <div class="col-4">
+                                <button id="advertisement-button" href="">
+                                    THUÊ QUẢNG CÁO
+                                </button>
+                            </div>
+                            <div class="col-4">
+                                <button id="group-button" href="">
+                                    THUÊ MẶT BẰNG
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="event-rental" class="even-rental" style="margin-bottom: 80px;">
+                    <h1 style="padding: 0;">THUÊ SẢNH SỰ KIỆN</h1>
+                    <div class="row">
+                        <div class="col-lg-8 col-12 order-lg-1 order-2">
+                            <p style="margin-top: 60px;">Sở hữu không gian rộng và vị trí trung tâm tại các tỉnh, thành phố lớn trên cả nước, Trung tâm thương mại Vincom là địa điểm lý tưởng để tổ chức sự kiện. Vincom mang đến cho Thương hiệu một địa điểm tổ chức sự kiện tuyệt vời cùng dịch vụ chuyên nghiệp và hiện đại.</p>
+                            <p>04 lý do lựa chọn dịch vụ thuê sảnh sự kiện tại Vincom:</p>
+                            <p>✔️Tăng nhận diện thương hiệu tại hệ thống trung tâm thương mại lớn nhất Việt Nam.
+                            <p>✔️Tiếp cận lượng khách hàng lớn, tiềm năng.</p>
+                            <p>✔️Đa dạng vị trí sảnh và diện tích phù hợp với nhiều loại hình sự kiện</p>
+                            <p>✔️Chi phí phù hợp với hiệu quả đạt được.</p>
+                        </div>
+                        <div class="col-lg-4 col-12 order-lg-2 order-1">
+                            <div class="form-couples">
+                                <h3 style="color: #D2232A;">Liên hệ thuê sảnh sự kiện</h3>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/email.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">info@vincom.com.vn</a>
+                                </div>
+                                <br>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/icon-phone.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">086 558 8056</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div id="advertisement-rental" class="advertisement-rental" style="margin-bottom: 80px;">
+                    <h1 style="padding: 0;">THUÊ QUẢNG CÁO</h1>
+                    <div class="row">
+                        <div class="col-lg-8 col-12 order-lg-1 order-2">
+                            <p style="margin-top: 60px;">Là điểm đến của hàng chục triệu lượt khách hàng mỗi năm, Vincom cung cấp đa dạng hình thức quảng cáo ngoài trời và trong nhà tại 80 trung tâm thương mại tại 43 tỉnh thành trên toàn quốc.</p>
+                            <p> 04 lý do lựa chọn dịch vụ quảng cáo tại Vincom:</p>
+                            <p>✔️Tăng nhận diện thương hiệu tại hệ thống trung tâm thương mại lớn nhất Việt Nam.
+                            <p>✔️Tiếp cận lượng khách hàng lớn, tiềm năng.</p>
+                            <p>✔️Hình thức quảng cáo đa dạng, hiệu suất cao, hiện đại, hiển thị sắc nét.</p>
+                            <p>✔️Chi phí phù hợp với hiệu quả đạt được.</p>
+                            <img src="/assets/images/Couples/1.jpg" alt="">
+                            <hr>
+                            <img src="/assets/images/Couples/2.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4 col-12 order-lg-2 order-1">
+                            <div class="form-couples">
+                                <h3 style="color: #D2232A;">Liên hệ thuê quảng cáo</h3>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/email.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">info@vincom.com.vn</a>
+                                </div>
+                                <br>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/icon-phone.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">086 558 8056</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rental-space" class="group-rental">
+                    <h1 style="padding: 0;">THUÊ MẶT BẰNG</h1>
+                    <div class="row">
+                        <div class="col-lg-8 col-12 order-lg-1 order-2">
+                            <p style="margin-top: 60px;">
+                                <p style="font-weight: 600;">Vincom Retail tự hào là thương hiệu bất động sản bán lẻ hàng đầu của Việt Nam.</p>
+                                Với độ phủ trên toàn quốc, hệ thống TTTM Vincom không chỉ mang tới cho khách hàng những địa điểm mua sắm sang trọng, tiện nghi mà còn là điểm đến của văn hoá, nghệ thuật và vui chơi giải trí. Vincom Retail có vai trò dẫn dắt xu hướng tiêu dùng và khẳng định uy tín của nhà đầu tư, phát triển và quản lý bất động sản bán lẻ hàng đầu với các TTTM đẳng cấp, quy mô bậc nhất Việt Nam. 
+                                <br><br>
+                                Với thế mạnh am hiểu thị trường đồng thời tập trung nghiên cứu để nắm bắt được nhu cầu của người tiêu dùng tại Việt Nam, Vincom Retail đã xây dựng môi trường bán lẻ hiện đại, phù hợp, tiện lợi “tất cả trong một”. Mỗi TTTM Vincom là một điểm đến thu hút khách hàng với định vị và lợi thế cạnh tranh khác biệt, nơi khách tham quan được tiếp cận khám phá những xu hướng mới về thời trang, ẩm thực, công nghệ của thế giới.
+Hiện nay, Vincom đang quản lý và vận hành 83 trung tâm thương mại trên cả nước với 4 dòng sản phẩm: Vincom Center, Vincom Mega Mall, Vincom Plaza và Vincom+.
+                            </p>
+                            <h1 style="padding: 0;">TẠI SAO CHỌN VINCOM?</h1>
+                            <p style="">
+                                <p style="font-weight: 600;">Lợi thế từ vị trí đắc địa hàng đầu</p>
+                                Với chiến lược phát triển tại các vị trí đắc địa hàng đầu và là trung tâm các địa điểm tập trung dân cư, các dự án TTTM Vincom luôn đảm bảo lượng khách hàng đông đúc với nhu cầu mua sắm, giải trí tới sử dụng dịch vụ mỗi ngày, mở ra cơ hội đầu tư vô cùng hấp dẫn cho khách thuê, các đối tác đồng hành.
+                                <br><br>
+                                <p style="font-weight: 600;">Thiết kế đạt tiêu chuẩn quốc tế</p>
+                                Các TTTM Vincom luôn đảm bảo các thông số kỹ thuật theo tiêu chuẩn quốc tế, với nhiều khoảng mở thoáng đãng trong không gian sang trọng.
+                                <br><br> 
+                                <p style="font-weight: 600;">Hệ thống vận hành và quản lý chuyên nghiệp</p>
+                                Với hơn 17 năm kinh nghiệm vận hành, quản lý hệ thống TTTM trên toàn quốc, Vincom Retail luôn áp dụng công nghệ hiện đại, tiên tiến nhất trong hoạt động vận hành, đem tới cho các nhà bán lẻ cơ hội kinh doanh trong môi trường chuyên nghiệp.
+                                <br><br>
+                                Đội ngũ Ban Quản Lý, Chăm sóc khách hàng am hiểu văn hoá và người tiêu dùng Việt Nam luôn đồng hành, hỗ trợ giải quyết mọi yêu cầu về vận hành và tư vấn hoạt động kinh doanh cho khách thuê.
+                                <br><br>
+                                <a href=""><p style="font-weight: 600;">Tìm hiểu thêm về Vincom Retail</p></a>
+                                <span style="font-size: 25px; font-weight: 400;">Khám phá cơ hội kinh doanh tại hệ thống TTTM Vincom</span>
+                                <br><br>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Msmzoc7mfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <br><br><br><br>
+                                <span style="font-size: 15px; color: #D2232A;">DỰ ÁN NỔI BẬT ĐANG CHÀO THUÊ</span>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="img-common">
+                                            <div class="zoom-img">
+                                                <a href="">
+                                                    <img src="/assets/images/Couples/3.jpg" alt="">
+                                                </a>
+                                                <div class="hidden-content">
+                                                    <h1 class="white-text" style="font-size: 16px;">Vincom Mega Mall Grand Park</h1>
+                                                </div>
+                                            </div>
+                                            <div class="button-heart"></div>
+                                        </div>
+                                        <div class="body-card">
+                                            <h3><a href="">VINCOM MEGA MALL GRAND PARK</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="img-common">
+                                            <div class="zoom-img">
+                                                <a href="">
+                                                    <img src="/assets/images/Couples/4.jpg" alt="">
+                                                </a>
+                                                <div class="hidden-content">
+                                                    <h1 class="white-text" style="font-size: 16px;">Vincom Mega Mall The Empire</h1>
+                                                </div>
+                                            </div>
+                                            <div class="button-heart"></div>
+                                        </div>
+                                        <div class="body-card">
+                                            <h3><a href="">VINCOM MEGA MALL THE EMPIRE</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-12 order-lg-2 order-1">
+                            <div class="form-couples">
+                                <h3 style="color: #D2232A;">Thuê mặt bằng gian hàng</h3>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/email.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">info@vincom.com.vn</a>
+                                </div>
+                                <br>
+                                <div class="location-centers">
+                                    <img src="/assets/SVG/icon-phone.svg" style="float: left;margin-bottom: 10px;margin-right: 10px; width: 20px; height: 20px;" alt="">
+                                    <a style="font-size: 17px;">086 558 8056</a>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            // JavaScript code
+            // Lắng nghe sự kiện khi bấm vào nút
+            document.getElementById('advertisement-rental').classList.add('hidden');
+            document.getElementById('rental-space').classList.add('hidden');
+
+            document.getElementById('event-rental').classList.remove('hidden');
+            document.getElementById('even-button').addEventListener('click', function() {
+                // Hiển thị phần tử event-rental và ẩn các phần tử còn lại
+                document.getElementById('event-rental').classList.remove('hidden');
+                document.getElementById('advertisement-rental').classList.add('hidden');
+                document.getElementById('rental-space').classList.add('hidden');
+            });
+    
+            document.getElementById('advertisement-button').addEventListener('click', function() {
+                // Hiển thị phần tử advertisement-rental và ẩn các phần tử còn lại
+                document.getElementById('event-rental').classList.add('hidden');
+                document.getElementById('advertisement-rental').classList.remove('hidden');
+                document.getElementById('rental-space').classList.add('hidden');
+            });
+    
+            document.getElementById('group-button').addEventListener('click', function() {
+                // Hiển thị phần tử rental-space và ẩn các phần tử còn lại
+                document.getElementById('event-rental').classList.add('hidden');
+                document.getElementById('advertisement-rental').classList.add('hidden');
+                document.getElementById('rental-space').classList.remove('hidden');
+            });
+    
+            const evenButton = document.getElementById('even-button');
+            const advertisementButton = document.getElementById('advertisement-button');
+            const groupButton = document.getElementById('group-button');
+
+            // Function to set button styles
+            function setButtonStyles(button, backgroundColor, textColor) {
+            button.style.backgroundColor = backgroundColor;
+            button.style.color = textColor;
+            }
+
+            // Set the initial color of the even button to red with white text
+            setButtonStyles(evenButton, '#D2232A', 'white');
+
+            // Add event listeners to the buttons
+            advertisementButton.addEventListener('click', function() {
+            setButtonStyles(evenButton, '', '');
+            setButtonStyles(advertisementButton, '#D2232A', 'white');
+            setButtonStyles(groupButton, '', '');
+            });
+
+            groupButton.addEventListener('click', function() {
+            setButtonStyles(evenButton, '', '');
+            setButtonStyles(advertisementButton, '', '');
+            setButtonStyles(groupButton, '#D2232A', 'white');
+            });
+
+            // Add a separate event listener for the even button
+            evenButton.addEventListener('click', function() {
+            setButtonStyles(evenButton, '#D2232A', 'white');
+            setButtonStyles(advertisementButton, '', '');
+            setButtonStyles(groupButton, '', '');
+            });
+        </script>
+        
+        
+    </main>
+
+    <footer>
+        <div id="header-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h1 style="font-size: 24px;color: #fff;">
+                            BẮT KỊP MỌI XU HƯỚNG <br>
+                            <span style="opacity: 0.5;">MỚI NHẤT</span>
+                        </h1>
+                        <p>CÙNG VỚI NHIỀU ƯU ĐÃI HẤP DẪN MỖI NGÀY!</p>
+                        <div class="input-group" style="width:100% ; height: 50px; display: inline-flex;">
+                            <input type="email" class="form-control" style=" border-radius: 0%;"  placeholder="Địa chỉ email của bạn" aria-label="Địa chỉ email của bạn" aria-describedby="basic-addon2">
+                            <button class="btn btn-danger" style="border-radius: 0%; background-color: #922126;">NHẬN EMAil</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-8">
+                        <div class="search-information">
+                            <div class="row ">
+                                <div class="list-icon col-12 col-lg-6 ">
+                                    <ul class="list-inline" style="margin: 0;">
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/facebook-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/zalo-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/youtube-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="_icon">
+                                                <a href="">
+                                                    <img src="/assets/SVG/instagram-line-white.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="search-centers">
+                                        <a href="">
+                                            <img style=" width: 19px;height: 19px; display: inline-block;" src="/assets/SVG/search-white.svg" alt="">
+                                            Tìm kiếm trung tâm thương mại
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="menu-footer">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">DỊCH VỤ KHÁCH HÀNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CÂU HỎI THƯỜNG GẶP</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CHÍNH SÁCH QUYỀN RIÊNG TƯ</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">LIÊN HỆ</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">TIN TỨC</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">SỰ KIỆN</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">ƯU ĐÃI</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">XU HƯỚNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">TUYỂN DỤNG</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">VỀ VINCOM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">GIỚI THIỆU</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">MY VINCOM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">HỆ THỐNG TTTM</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">BẢN ĐỒ TRANG</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="">HỢP TÁC</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">QUAN HỆ CỔ ĐÔNG</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">CHO THUÊ</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">QUẢNG CÁO</a></li>
+                                            <li class="nav-item text-opacity70"><a class="nav-link" href="">THUÊ MẶT BẰNG</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="body-footer">
+            <div class="container">
+                <div class="body-footer-responsive">
+                    <ul>
+                        <li>Công ty Cổ phần Vincom Retail:</li>
+                        <li>
+                            <p class="text-opacity70 white-text">
+                                Địa chỉ trụ sở chính: Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam.
+                                <br>
+                                Hotline: 0439746699 Mã số DN: 0105850244Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 11/04/2012
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="body-footer-common">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Công ty Cổ phần Vincom Retail:</li>
+                                <li>
+                                    <p class="text-opacity70 white-text">
+                                        Địa chỉ trụ sở chính: Số 7, đường Bằng Lăng 1, Khu đô thị Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam.
+                                        <br>
+                                        Hotline: 0439746699
+                                        <br>
+                                        Mã số DN: 0105850244
+                                        <br>
+                                        Sở Kế hoạch và Đầu tư TP Hà Nội cấp lần đầu ngày 11/04/2012
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Lĩnh vực kinh doanh:</li>
+                                <li><p class="text-opacity70 white-text">Kinh doanh bất động sản</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>Chủ tài khoản:</li>
+                                <li>
+                                    <p class="text-opacity70 white-text">
+                                        Công ty Cổ phần Vincom Retail
+                                        <br>
+                                        Tài khoản ngân hàng số: 12310000380169
+                                        <br>
+                                        Ngân hàng TMCP Đầu tư và Phát triển Việt Nam
+                                        <br>
+                                        (BIDV) - Chi Nhánh Quang Trung
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-footer">
+            <div class="container text-center">
+                Copyright © 2021 by Vincom Retail. All rights reserved | <a href="">Điều khoản</a>
+                <br>
+                This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a>  and <a href="">Terms of Service </a>apply.
+            </div>
+        </div>
+    </footer>
+    <script>
+        var menu_hidden = document.getElementById("Menu_hidden");
+        var iconMenu = document.querySelector(".icon-list-menu");
+        menu_hidden.style.display = "none"
+        function toggleMenu1() {
+            if (menu_hidden.style.display == "none") {
+                menu_hidden.style.display = "flex";
+            } else {
+                menu_hidden.style.display = "none";
+            }
+            iconMenu.classList.toggle("active");
+        }    
+
+        var menu_hidden2 = document.getElementById("menu_hidden2");
+        menu_hidden2.style.display = "none"
+        function toggleMenu2() {
+            if (menu_hidden2.style.display == "none") {
+                menu_hidden2.style.display = "flex";
+            } else {
+                menu_hidden2.style.display = "none";
+            }
+        } 
+    </script>
+
+    <script>
+        var prevScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+        function handleScroll(event) {
+        var currentScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+        var menu = document.getElementById('main_menu');
+        if (window.innerWidth > 992) {
+            if (currentScrollPos > prevScrollPos) {
+                if (currentScrollPos >50) {
+                    menu.style.display = 'none';
+                }
+                } else {
+                menu.style.display = 'block';
+            }
+        } else {
+            menu.style.display = 'none';
+        }
+
+        prevScrollPos = currentScrollPos;
+        }
+
+        window.addEventListener('scroll', handleScroll);
+    </script>
+</body>
+</html>
