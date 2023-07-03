@@ -1029,7 +1029,7 @@ tbody tr:hover
     #collection img{
         height: 130px;
     }
-    .search-information-contact input,select,.common-button{
+    .search-information-contact input,.search-information-contact select,.search-information-contact .common-button{
         height: 36px;
         margin-top: 6px;
         width: 100%;
