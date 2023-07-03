@@ -369,6 +369,7 @@ p{
 }
 .swiper-container{
     position: relative;
+    overflow-x: hidden;
 }   
 .swiper-pagination{
     position: absolute;
